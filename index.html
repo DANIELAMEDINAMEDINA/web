@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--DANIELA MEDINA MEDINA-->
+<!--Introduccion al HTML 5 y CSS 3-->
+<!--Grupo: B-->
+<!--10/02/2025-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora 2.1</title>
+    <style>
+        header
+        {
+            width: 900px; 
+            height: 150px;
+            background-color: plum;
+        }
+        #a
+        {
+            width: 900px; 
+            height: 150px;
+            background-color: lightpink;
+
+        }
+        #b
+        {
+            width: 900px;
+            height: 150px;
+            background-color: lightgreen;
+        }
+        #c
+        {
+            width: 900px;
+            height: 500px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(243, 12, 124); text-align: center;">Bitacora</h1>
+        <h3 style="text-align: center;">Version: 1.0</h3>
+        <h3 style="text-align: center;">10/02/2024</h3>
+        <a style="text-align:center;" href="#mapa">Ir abajo</a>
+    </header>
+    <section id="a">
+        <h3 style="text-align: center;">Introduccion a HTML 5 y CSS3</h3>
+        <h3 style="text-align: center;">DANIELA MEDINA MEDINA</h3>
+        <h3 style="text-align: center;">Grupo: B</h3>
+    </section>
+    <section id="b">
+        <h2>Definicion de DOM</h2>
+        <p>
+            En mi manera de definirlo, el DOM es la estructura "Del más  grande al más  pequeño",
+            tomando el ejemplo de un espacio, como el de una cocina, la cocina seria la seccion o capa principal,
+            esta se divide en otras secciones más pequeñas, como lo serian los gabinetes, el refrigerador y
+            demas. Estas secciones pueden guardar dentro de si objetos o secciones aun más pequeñas, a los
+            que no se podra acceder a menos que entremos desde la primera seccion (la cocina) y las demas
+            capas que se encuentran por encima, hay un orden de jerarquia.
+        </p>
+        <img  aling="center" width="450" height="370" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png"></img>
+    </section>
+    <section id="c">
+        <h2>Etiquetas aprendidas hasta la fecha 7/02/2024</h2>
+        <ul>
+            <li>!DOCTYPE:</li>
+            <p>Indica el tipo de documento, en este caso html.</p>
+            <li>html:</li>
+            <p>Todo lo que este dentro de esta etiqueta, estara en la pagina web, no siempre de manera visible.</p>
+            <li>lang:</li>
+            <p>Se refiere a el lenguaje de la pagina.</p>
+            <li>head:</li>
+            <p>
+                Es la primera parte del documento. En el se encuentra
+                la informacion general de la pagina como el titulo y principales parametros.
+            </p>
+            <li>body:</li>
+            <p>Contiene la informacion que el usuario vera en la pagina.</p>
+            <li>title:</li>
+            <p>Es el titulo de la pagina. Este se ve en la pestaña del navegador.</p>
+            <li>h1,h2,h3,h...:</li>
+            <p>Son los titulos, mientras mas pequeño es el numero de la etiqueta el tamaño de la letra es mayor.</p>
+            <li>p:</li>
+            <p>Son los parrafos.</p>
+            <li>img:</li>
+            <p>Dentro de esta etiqueta se coloca el enlace a una imagen.</p>
+            <li>iframe:</li>
+            <p>Sirve para almacenar un link externo.</p>
+            <li>a:</li>
+            <p>Dentro de esta etiqueta se guarda el iframe y crea un link de acceso directo a la pagina externa.</p>
+            <li>ul:</li>
+            <p>Se crea una lista.</p>
+            <li>li:</li>
+            <p>Espacios de la lista.</p>
+            <li>ol:</li>
+            <p>Se crea una lista ordenada (enumerada).</p>
+        </ul>
+    </section>
+    <footer>
+        <div id="mapa">Estas aqui abajo</div>
+        <p>Saludos desde IADA ;D</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.0424192100973!2d-106.43315780000002!3d31.742043099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea4359ba3469d5%3A0x5fdab3bc5a4f953c!2sUACJ%20IIT-IADA!5e0!3m2!1ses!2smx!4v1739219709782!5m2!1ses!2smx" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>    
+</body>
+</html>
